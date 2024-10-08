@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: vprodb
-        image: chaoslecion/vprofiledb:V1
+        image: chaoslecion/vprofiledb:latest
         # args:
         #  - "--ignore-db-dir=lost+found"  
         volumeMounts:
